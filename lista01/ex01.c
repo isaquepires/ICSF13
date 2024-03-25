@@ -15,5 +15,4 @@ int main ()
     	printf("%d\n", resposta);
 	
 	return 0;
-
 }
