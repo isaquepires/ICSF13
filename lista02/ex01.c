@@ -13,4 +13,6 @@ int main ()
 		idade = idade - 1;
 		
 	printf("%d\n", idade);
+
+	return 0;
 }
