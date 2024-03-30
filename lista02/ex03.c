@@ -2,7 +2,9 @@
 
 int main ()
 {	
-	int valor_inicial, valor, cedula=200, i, qtde;
+	int valor_inicial, valor, cedula, i, qtde;
+
+	cedula = 200;
 	
 	scanf("%d", &valor_inicial);
 
