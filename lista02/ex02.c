@@ -2,15 +2,15 @@
 
 int main ()
 {
-	int d;
+	int distancia;
 
-	scanf("%d", &d);
+	scanf("%d", &distancia);
 
-	if (d <= 800)
+	if (distancia <= 800)
 		printf("1\n");
-	else if (d <= 1400)
+	else if (distancia <= 1400)
 		printf("2\n");
-	else if (d <= 2000)
+	else if (distancia <= 2000)
 		printf("3\n");
 	
 	return 0;
