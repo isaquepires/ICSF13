@@ -12,6 +12,7 @@ int main ()
 
 	for (i = 1; i <= 7; i++)
 	{
+  // Quando i for 3 ou 6, o valor contido em cedula será dividido por 2.5 para formar valores como 20 a partir de 50 e 2 a partir de 5
 		if (i % 3 == 0)
 			cedula /= 2.5;
 		else
