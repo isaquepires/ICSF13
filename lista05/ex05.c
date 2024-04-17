@@ -18,9 +18,7 @@ int main ()
     casas = numero;
 
     for (ordem = 0; casas > 0; ordem++)
-    {
         casas /= 10;
-    }
 
     casas = ordem - 1;
 
@@ -31,8 +29,6 @@ int main ()
         oremun += algarismo;
         ordem--;
     }
-
-    printf("%d\n", oremun);
 
     if (numero == oremun)
         printf("Palindromo\n");
