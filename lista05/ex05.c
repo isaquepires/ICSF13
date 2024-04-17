@@ -3,7 +3,7 @@
 
 int selecionar(int numero, int posicao)
 {
-    int divisor = pow(10, posicao - 1);
+    int divisor = pow(10, posicao);
 
     return (numero / divisor) % 10;
 }
@@ -19,7 +19,6 @@ int main ()
 
     for (ordem = 0; casas > 0; ordem++)
     {
-        printf("ordem: %d casas: %d\n", ordem, casas);
         casas /= 10;
     }
 
@@ -27,11 +26,13 @@ int main ()
 
     while (ordem >= 0)
     {
-        algarismo = selecionar(numero, ordem + 1);
+        algarismo = selecionar(numero, ordem);
         algarismo *= pow(10, casas - ordem);
         oremun += algarismo;
         ordem--;
     }
+
+    printf("%d\n", oremun);
 
     if (numero == oremun)
         printf("Palindromo\n");
