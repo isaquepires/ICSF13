@@ -32,6 +32,8 @@ int main ()
 
     if (numero == oremun)
         printf("Palindromo\n");
+    else
+        printf("Nao palindromo\n");
 
     return 0;
 }
