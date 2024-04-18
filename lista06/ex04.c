@@ -4,7 +4,6 @@
 int main()
 {
     int n, cont_branco, cont_carac, meio, cima, branco, baixo;
-
     char caractere;
 
     scanf ("%c", &caractere);
