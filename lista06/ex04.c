@@ -9,9 +9,8 @@ int main()
     scanf ("%c", &caractere);
     scanf ("%d", &n);
 
-    branco = 0;
-
     // CIMA
+    branco = 0;
     for (cima = 0; cima < n; cima++)
     {
         for (cont_branco = 0; cont_branco < n - branco; cont_branco++)
@@ -33,7 +32,6 @@ int main()
 
     // BAIXO
     branco = n-1;
-
     for (baixo = 0; baixo < n; baixo++)
     {
         for (cont_branco = 0; cont_branco < n - branco; cont_branco++)
