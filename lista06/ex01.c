@@ -31,7 +31,7 @@ int main()
 		numero += 2;
 	}
 
-	printf("SOMA: %d", soma);
+	printf("SOMA: %d\n", soma);
 
     return 0;
 }
