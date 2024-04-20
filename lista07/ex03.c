@@ -1,4 +1,4 @@
-#include <stdio.h>#include <stdio.h>
+#include <stdio.h>
 
 unsigned long long potencia (unsigned int base, unsigned int expoente);
 
