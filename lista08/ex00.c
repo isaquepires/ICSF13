@@ -21,22 +21,22 @@ void main ()
     }
 }
 
-void pontoRolo1()
+void pontoRolo1 ()
 {
     printf("v");
 }
 
-void pontoRolo2()
+void pontoRolo2 ()
 {
     printf("a");
 }
 
-void moveAgulha()
+void moveAgulha ()
 {
     printf(".");
 }
 
-void rolaTecido()
+void rolaTecido ()
 {
     printf("\n");
 }
