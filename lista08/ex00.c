@@ -33,7 +33,7 @@ void pontoRolo2 ()
 
 void moveAgulha ()
 {
-    printf(".");
+    printf(" ");
 }
 
 void rolaTecido ()
