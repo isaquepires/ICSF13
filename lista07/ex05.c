@@ -26,11 +26,10 @@ int testaTipoChar (char c)
         flag_minuscula = 1;
     }
     else if (c >= 48 && c <= 57)
-        return 5;
+        return (5);
     else
-        return 0;
-
-
+        return (0);
+    
         // procurando as 5 vogais em loop
         for (i = 0; i < 5; i++)
         {
@@ -44,15 +43,14 @@ int testaTipoChar (char c)
 
         if (flag_vogal)
             if (!flag_minuscula)
-                return 1;
+                return (1);
             else
-                return 2;
+                return (2);
         else
             if (!flag_minuscula)
-                return 3;
+                return (3);
             else
-                return 4;
-
+                return (4);
 }
 
 /*
@@ -69,6 +67,6 @@ int testaTipoChar (char c)
     if (c > '0' && c <= '9')
         return (5);
 
-        return (0);
+    return (0);
 }
 */
