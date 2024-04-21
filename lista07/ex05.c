@@ -9,6 +9,8 @@ int main()
     scanf("%c", &c);
 
     printf("%d", testaTipoChar(c));
+
+    return (0);
 }
 
 int testaTipoChar (char c)
