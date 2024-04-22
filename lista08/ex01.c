@@ -3,10 +3,8 @@
 
 void main ()
 {
-    int i, j, k, quantidade_pontos;
+    int i, quantidade_pontos;
 
-    j = 0;
-    k = 0;
     quantidade_pontos = 0;
 
     /* Funciona até desligar ou o tecido acabar. */
