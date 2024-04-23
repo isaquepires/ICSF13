@@ -17,7 +17,7 @@ int kalternante(int n, int* k)
     flag_zero = 0;
 
     // O primeiro termo nao pode ser comparado com o anterior,
-    // pois existe anterior, por isso ele esta fora do loop.
+    // pois não existe anterior, por isso ele esta fora do "for".
     scanf("%d", &termos);
 
     if (termos % 2 == 0)
