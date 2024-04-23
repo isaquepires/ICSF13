@@ -68,7 +68,7 @@ int kalternante(int n, int* k)
             menor_paridade = paridade;
     }
 
-    // Passsando para por referencia os valores em modulo de k.
+    // Passsando por referencia os valores em modulo de k.
     if (maior_paridade > 0)
         *k = maior_paridade;
     else if (menor_paridade < 0)
