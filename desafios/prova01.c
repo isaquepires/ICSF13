@@ -3,11 +3,11 @@
 
 int main()
 {
-    int rows, cols, i, j, count_carac;
+    int rows, cols, i, j, count_cerq;
 
     rows = 2;
     cols = 3;
-    count_carac = 0;
+    count_cerq = 0;
 
     while (rows <= N)
     {
@@ -20,14 +20,14 @@ int main()
                 if (j - i == rows - 1 || i + j == rows + 1)
                 {
                     printf("#");
-                    count_carac++;
+                    count_cerq++;
                 }
-                else if (count_carac == 1 && i != 1)
+                else if (count_cerq == 1 && i != 1)
                         printf("#");
                 else
                     printf(" ");
             }
-            count_carac = 0;
+            count_cerq = 0;
             printf("\n");
         }
         rows++;
