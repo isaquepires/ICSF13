@@ -3,11 +3,11 @@
 
 int main()
 {
-    int rows, cols, i, j, count_cerq;
+    int rows, cols, i, j, count_hash;
 
     rows = 2;
     cols = 3;
-    count_cerq = 0;
+    count_hash = 0;
 
     while (rows <= N)
     {
@@ -20,14 +20,14 @@ int main()
                 if (j - i == rows - 1 || i + j == rows + 1)
                 {
                     printf("#");
-                    count_cerq++;
+                    count_hash++;
                 }
-                else if (count_cerq == 1 && i != 1)
+                else if (count_hash == 1 && i != 1)
                         printf("#");
                 else
                     printf(" ");
             }
-            count_cerq = 0;
+            count_hash = 0;
             printf("\n");
         }
         rows++;
